@@ -1,0 +1,27 @@
+.form-container {
+    
+    .card {
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30),0 15px 12px rgba(0,0,0,0.22);
+        width: 400px;
+        height: 700px;
+        padding: 2%;
+
+        form{
+            display: flex;
+            flex-direction: column;
+            input {
+                height: 30px;
+                border-radius: 5px;
+                outline: none;
+                border:1px solid #c8c8c8;
+            }
+
+            button {
+                height: 46px;
+                border-radius: 5px;
+                outline: none;
+            }
+        }
+            
+    }
+}
